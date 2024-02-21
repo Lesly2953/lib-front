@@ -11,7 +11,7 @@ const Table = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/db")
+      .get("https://lib-back-1.onrender.com/db")
       .then((response) => {
         setData(response.data);
       })
